@@ -1,0 +1,18 @@
+<div id="todo-body">
+  <li *ngFor="let task of tasks" (click)="onSelect(task)">   
+    <span class="name">
+      <div [hidden]="!task.isOn">{{task.name}}</div>
+     
+      <div [hidden]="task.isOn">
+        <input [(ngModel)]="task.name" type="text"/>
+        <button (click)="onSave(task)">Save</button>
+      </div>
+
+    </span>    
+  </li>
+</div>
+
+
+<span class="actions">
+  <a>Remove</a>
+</span>
