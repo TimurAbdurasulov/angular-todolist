@@ -1,3 +1,2 @@
-# angular-ewnxfy
+# angular-todolist
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ewnxfy)
